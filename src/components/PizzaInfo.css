@@ -1,0 +1,32 @@
+
+.pizzaInfo {
+    background-color: #101820;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    font-size: 30px;
+    padding:30px;
+    text-align: center;
+    padding-left: 60px;
+    color: aliceblue;
+    transition: 1s ease;
+}
+
+.pizzaInfo > div {
+    margin:20px;
+}
+
+hr {
+    height: 10px;
+    background-color: aliceblue;
+    border-radius: 50px;
+    border: 0;
+}
+
+.pizzaInfo:hover{
+    background-color: aliceblue;
+    color: #101820;
+}
+
+.pizzaInfo:hover > hr {
+    border: 0;
+}

@@ -1,0 +1,58 @@
+.loginForm{
+    background-color: #FEE715;
+    margin: auto;
+    width: 25%;
+    border-radius: 50px;
+    text-align: center;
+    padding: 50px;
+    margin-top: 100px;
+}
+
+.logInput {
+    background-color: #101820;
+    padding:15px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.passInput {
+    background-color: #101820;
+    padding:15px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.logInput > input, .passInput > input {
+    padding:15px;
+    border-radius: 50px;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.buttons, .buttons > button { 
+    padding: 25px;
+    border-radius: 50px;
+    border: 0;
+}
+
+.buttons > button {
+    margin: 10px;
+    transition: 0.5s ease;
+    font-weight: bold;
+}
+
+.buttons > button:hover {
+    background-color: #101820;
+    color: white;
+    box-shadow: 5px 5px 20px 4px rgba(16, 24, 32, 0.73);
+}
+
+.errorMessage {
+    color: red;
+    font-weight: bolder;
+    font-size: 25px;
+}
+

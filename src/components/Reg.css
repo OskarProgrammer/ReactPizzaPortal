@@ -1,0 +1,17 @@
+
+.repeatedPassInput {
+    background-color: #101820;
+    padding:15px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.repeatedPassInput > input{
+    padding:15px;
+    border-radius: 50px;
+}
+
+.some {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}

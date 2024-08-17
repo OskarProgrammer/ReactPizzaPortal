@@ -1,0 +1,95 @@
+
+.pizzaInformations {
+    margin:auto;
+    background-color: aliceblue;
+    color: #101820;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 50px;
+    width: 70%;
+    margin-bottom: 50px
+}
+
+.pizzaInformations > div{
+    margin: 10px;
+}
+
+.preparing {
+    color: red,
+}
+
+.making {
+    color: yellow;
+}
+
+.ready {
+    color: green;
+    font-weight: bold;
+}
+
+.adminInfo {
+    font-weight: bold;
+}
+
+.adminButtons > button{
+    margin: 20px;
+    background-color: #101820;
+    color: aliceblue;
+}
+
+
+.makingButton:hover {
+    background-color: yellow;
+    box-shadow: 0;
+    color: #101820;
+}
+
+.readyButton:hover {
+    background-color: green;
+    box-shadow: 0;
+}
+
+.removeButton:hover {
+    background-color: red;
+}
+
+.deliveryInformations {
+    border-radius:50px;
+    padding: 25px;
+    transition: all 0.5s ease-in-out;
+    padding-bottom: 40px;
+    color: aliceblue;
+}
+
+.detailsInformation {
+    border-radius: 50px;
+    border: 2px solid white;
+    width: 50%;
+    margin: auto;
+    margin-top: 25px;
+    transition: 0.5s ease;
+}
+
+.shown {
+    background-color: #101820;
+}
+
+.active {
+    background-color: #101820;
+    color: aliceblue;
+}
+
+.active:hover {
+    background-color: aliceblue;
+    color:#101820;
+}
+
+.detailsInformation > p {
+    font-size:20px;
+}
+
+.detailsInformation:hover {
+    background-color: aliceblue;
+    color:#101820;
+    font-weight: bold;
+}

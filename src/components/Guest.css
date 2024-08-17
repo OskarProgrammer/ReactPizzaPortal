@@ -1,0 +1,49 @@
+
+.guestIntroduction {
+    margin: auto;
+    background-color: #FEE715;
+    width: 25%;
+    margin-top: 125px;
+    padding: 50px;
+    border-radius: 50px;
+    text-align: center;
+
+}
+
+.guestLogin, .guestPass, .guestKey {
+    font-size: 20px;
+    margin: 20px;
+    padding:20px;
+    background-color: #101820;
+    color: rgb(216, 216, 216);
+    border-radius: 50px;
+    transition: 0.5s ease-in-out;
+}
+
+.guestInformations {
+    background-color: aliceblue;
+    padding:20px;
+    border-radius: 50px;
+}
+
+.guestLogin:hover, .guestPass:hover, .guestKey:hover{
+    background-color: aliceblue;
+    color: #101820;
+}
+
+button {
+    background-color: aliceblue;
+    border: 0;
+    border-radius: 50px;
+    padding: 25px;
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.5s ease;
+}
+
+button:hover {
+    background-color: #101820;
+    color: white;
+    box-shadow: 5px 5px 20px 4px rgba(16, 24, 32, 0.73);
+}
